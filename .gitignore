@@ -1,0 +1,3 @@
+node_modules/codemirror/*
+!node_modules/codemirror/lib
+!node_modules/codemirror/mode

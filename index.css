@@ -14,6 +14,7 @@ body {
   margin-right: 1rem;
 }
 .col textarea,
+.col .CodeMirror,
 .col iframe {
   width: 100%;
   height: 100%;

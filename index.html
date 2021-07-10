@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./public/codemirror/lib/codemirror.css">
+  <script src="./public/codemirror/lib/codemirror.js"></script>
+  <script src="./public/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+  <script src="./public/codemirror/mode/css/css.js"></script>
+  <script src="./public/codemirror/mode/javascript/javascript.js"></script>
 </head>
 <body>
   <div id="layer">
@@ -18,16 +23,10 @@
     <div class="col">
       <textarea name="js" id="js"></textarea>
     </div>
-    <div class="col">
-      <iframe
-        sandbox="allow-modals allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts"
-        frameborder="0" allow="geolocation; midi; camera; microphone; speaker;"
-        name="JS Bin Output "
-        src="about:blank"
-      ></iframe>
+    <div class="col" id="output">
+
     </div>
   </div>
-
   <script src="./index.js"></script>
 </body>
 </html>
